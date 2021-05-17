@@ -28,7 +28,6 @@ body {
 .logo__circle {
  width: 28px;
  height: 28px;
- border: dashed 1px red;
  left: 0;
  top: 0;
 }
