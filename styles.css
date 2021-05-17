@@ -22,6 +22,7 @@ body {
  display: inline-block;
 }
 .logo {
+ position: relative;
  padding: 40px 0;
  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
@@ -32,11 +33,13 @@ body {
  top: 0;
 }
 .logo__circle_color_dark-blue {
+ position: relative;
  background: #0056EC;
  opacity: .7;
  border-radius: 50%;
 }
 .logo__circle_color_blue {
+ position: absolute;
  left: 8px;
  top: 56%;
  background: #C8DBFB;
