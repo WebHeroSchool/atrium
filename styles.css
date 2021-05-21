@@ -53,12 +53,20 @@ body {
   left: 0;
   width: 0;
   height: 3px;
-  transition: opacity .5s, width .5s;
+  transition: opacity .5s;
+}
+.menu__item_active::after {
+ display: block;
+ content: '';
+ position: absolute;
+ width: 68px;
+ height: 3px;
+ background: #0056EC;
 }
 .menu__item:hover {
   opacity: 0.5;
 }
 .menu__item:hover:after, .menu__item_active:after {
   opacity: 1;
-  width: 100%
+  width: 100%;
 }
