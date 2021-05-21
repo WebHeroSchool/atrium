@@ -46,13 +46,13 @@ body {
 }
 .menu__item {
   position: relative;
-  margin-right: 26 px;
-  font: 500 18 px/21 px Roboto, arial, helvetica, sans-serif;
+  margin-right: 26px;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text decoration: none;
   left: 0;
   width: 0;
-  height: 3 px;
+  height: 3px;
   transition: opacity .5s, width.5s;
 }
 .menu__item:hover {
