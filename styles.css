@@ -56,12 +56,12 @@ body {
   transition: opacity .5s;
 }
 .menu__item_active::after {
- display: block;
- content: '';
- position: relative;
- width: 68px;
- height: 3px;
- background: #0056EC;
+  display: block;
+  content: '';
+  position: absolute;
+  width: 68px;
+  height: 3px;
+  background: #0056EC;
 }
 .menu__item:hover {
   opacity: 0.5;
