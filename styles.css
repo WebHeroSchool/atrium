@@ -72,7 +72,6 @@ body {
   width: 100%;
 }
 .main-content__title {
-  position: absolute;
   margin: 0 0 40px 0;
   font: bold 50px/65px 'pt_serif', arial, helvetica, sans-serif;
 }
