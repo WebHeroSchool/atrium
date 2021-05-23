@@ -74,6 +74,7 @@ body {
 }
 .main {
   padding: 0 63% 100px 0;
+  padding-bottom: 50px;
   background: top right no-repeat url("img/mainImg.svg");
 }
 .main__title {
