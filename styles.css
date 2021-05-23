@@ -71,11 +71,20 @@ body {
   opacity: 1;
   width: 100%;
 }
-.main-content__title {
+.main {
+  padding-top: 100px;
+  padding-right: 63%;
+  background: url(img/mainImg.svg);
+  background-repeat: no-repeat;
+}
+.main__title {
   margin: 0 0 40px 0;
   font: bold 50px/65px 'pt_serif', arial, helvetica, sans-serif;
 }
-.main-content__subtitle {
+.main__subtitle {
   margin-top: 0 0 41px 0;
   font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+}
+.main__button {
+  font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
 }
