@@ -1,5 +1,5 @@
 body {
-  margin:0;
+ margin:0;
 }
 .menu {
   display: flex;
@@ -72,7 +72,7 @@ body {
   width: 100%;
 }
 .main {
-  padding: 0 63% 100px 0;
+  padding: 0 63% 150px 0;
   background: top right no-repeat url("img/mainImg.svg");
 }
 .main__title {
