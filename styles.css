@@ -73,6 +73,8 @@ body {
   width: 100%;
 }
 .main {
+  width: 769px;
+  height: 656px;
   padding: 0 63% 370px 0;
   background: top right no-repeat url("img/mainImg.svg");
 }
