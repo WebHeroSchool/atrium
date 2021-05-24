@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 100px;
 }
 .main-section {
   margin: auto;
@@ -72,7 +73,7 @@ body {
   width: 100%;
 }
 .main {
-  padding: 0 63% 150px 0;
+  padding: 0 63% 370px 0;
   background: top right no-repeat url("img/mainImg.svg");
 }
 .main__title {
