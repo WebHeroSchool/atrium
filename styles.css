@@ -90,8 +90,8 @@ body {
 }
 .main__subtitle {
   margin: 0 0 42px 0;
-  padding-right: 150px;
-  font: 400 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  padding-right: 130px;
+  font: 400 23px/21px 'Roboto', arial, helvetica, sans-serif;
 }
 .main__button {
   display: inline-block;
