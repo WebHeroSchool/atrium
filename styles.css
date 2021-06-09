@@ -109,3 +109,9 @@ body {
 .main__button:hover {
  opacity: .5;
 }
+.footer {
+  margin: 100 100 100 100;
+  border-bottom: 400px
+  border-left: 250px;
+  image-orientation: center;
+}
