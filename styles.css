@@ -86,6 +86,7 @@ body {
    margin: 0 0 45px 0;
    padding-top: 80px;
    font: 66px/84px 'pt_serifbold', arial, helvetica, sans-serif;
+   line-height: 85px;
 }
 .main__title_highlight {
   background: #ECF3FF;
@@ -93,8 +94,9 @@ body {
 .main__subtitle {
   margin: 0 0 42px 0;
   padding-right: 130px;
-  font: 400 23px/21px 'Roboto', arial, helvetica, sans-serif;
+  font: 400 22px/21px 'Roboto', arial, helvetica, sans-serif;
   letter-spacing: 0.1px;
+  line-height: normal;
 }
 .main__button {
   display: inline-block;
