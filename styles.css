@@ -128,12 +128,7 @@ body {
  }
  .main {
   padding: 0 58% 258px 0;
-<<<<<<< HEAD
   background-size: 55%;
-=======
-  background-size: 10%
-  background-position: top center;
->>>>>>> e85be799da43e3798038f333525185e7cf090bc1
  }
  .logo__circle {
    top: 49%;
@@ -142,30 +137,27 @@ body {
   font: 14px/21px;
  }
  .menu__item:last-child {
-    margin-right: 2px;
+  margin-right: 2px;
  }
  .main__title {
-<<<<<<< HEAD
- margin-bottom: 44px;
- font: 49.8px/63px "pt_serifbold", arial, helvetica, sans-serif;
- padding-top: 25px;
+  margin-bottom: 44px;
+  font: 49.8px/63px "pt_serifbold", arial, helvetica, sans-serif;
+  padding-top: 25px;
  }
  .main__subtitle {
- width: 90%;
- margin-bottom: 42px;
-=======
- margin-bottom: 47px;
- font: 50px/61px "pt_serifbold", arial, helvetica, sans-serif;
- padding-top: 28px;
+  width: 90%;
+  margin-bottom: 42px;
+  margin-bottom: 47px;
+  font: 50px/61px "pt_serifbold", arial, helvetica, sans-serif;
+  padding-top: 28px;
  }
  .main__subtitle {
- margin-bottom: 18px;
->>>>>>> e85be799da43e3798038f333525185e7cf090bc1
- padding-right: 57px;
- font: 500 18px/20px "Roboto", arial, helvetica, sans-serif;
+  margin-bottom: 18px;
+  padding-right: 57px;
+  font: 500 18px/20px "Roboto", arial, helvetica, sans-serif;
  }
  .main__button {
- font: 500 13px/8px "Roboto", arial, helvetica, sans-serif;
+  font: 500 13px/8px "Roboto", arial, helvetica, sans-serif;
  }
 }
 @media (max-width:1170px) {
