@@ -87,9 +87,8 @@ body {
    padding-top: 80px;
    font: 66px/84px 'pt_serifbold', arial, helvetica, sans-serif;
    line-height: 85px;
-}
-.main__title_highlight {
-  background: #ECF3FF;
+   background: linear-gradient(
+   180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 .main__subtitle {
   margin: 0 0 42px 0;
@@ -117,30 +116,38 @@ body {
 }
 @media (max-width:1366px) {
 .wrapper {
-  width: 68%;
+ width: 68%;
  }
-.menu__item {
- margin-right: 14px;
- font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
+.menu {
+ padding-top: 8px;
  }
 .header {
  padding-bottom: 80px;
  }
  .main {
   padding: 0 58% 258px 0;
-  background-size: 55%;
+  background-size: 56%;
+  margin-right: -14px;
  }
  .logo__circle {
-   top: 49%;
+  top: 49%;
  }
+ .logo__circle_color_dark-blue {
+  left: 0;
+ }
+ .logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  }
  .menu__item {
-  font: 14px/21px;
+  margin-right: 16px;
+  font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
  }
  .menu__item:last-child {
   margin-right: 2px;
  }
  .main__title {
-  margin-bottom: 44px;
+  margin-bottom: 15px;
   font: 49.8px/63px "pt_serifbold", arial, helvetica, sans-serif;
   padding-top: 25px;
  }
@@ -152,12 +159,17 @@ body {
   padding-top: 28px;
  }
  .main__subtitle {
-  margin-bottom: 18px;
+  margin-bottom: 40px;
   padding-right: 57px;
-  font: 500 18px/20px "Roboto", arial, helvetica, sans-serif;
+  font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
  }
  .main__button {
-  font: 500 13px/8px "Roboto", arial, helvetica, sans-serif;
+  font: 500 13px/9px "Roboto", arial, helvetica, sans-serif;
+  padding: 20px 27px 20px 27px;
+ }
+ footer {
+padding-bottom: 100px;
+margin-top: 100px;
  }
 }
 @media (max-width:1170px) {
