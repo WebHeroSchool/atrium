@@ -122,6 +122,9 @@ body {
 .menu {
  padding-top: 8px;
  }
+ .hamburger-menu {
+  display: none;
+ }
 .header {
  padding-bottom: 80px;
  }
@@ -167,6 +170,9 @@ body {
 @media (max-width:1024px) {
 .wrapper {
  width: 91%;
+ }
+ .hamburger-menu {
+  display: none;
  }
 .header {
  margin-bottom: 5px;
@@ -241,5 +247,8 @@ body {
 @media (max-width:375px) {
 .menu {
  display: none;
+ }
+ .hamburger-menu {
+  display: none;
  }
 }
