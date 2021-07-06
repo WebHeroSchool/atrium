@@ -87,8 +87,9 @@ body {
    padding-top: 80px;
    font: 66px/84px 'pt_serifbold', arial, helvetica, sans-serif;
    line-height: 85px;
-   background: linear-gradient(
-   180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
+}
+.main__title_highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 .main__subtitle {
   margin: 0 0 42px 0;
@@ -211,8 +212,12 @@ body {
 @media (max-width: 768px) {
  .menu {
  display: none;
+ }
  .header {
  margin-bottom: 28px;
+ }
+ .logo > span {
+ display: none;
  }
  .main {
  padding: 74% 0 0;
@@ -237,3 +242,4 @@ body {
 .menu {
  display: none;
  }
+}
