@@ -1,6 +1,9 @@
 body {
  margin:0;
 }
+.wrapper-main{
+  display: none;
+}
 .menu {
   display: flex;
   align-items: center;
@@ -54,9 +57,7 @@ body {
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  left: 0;
-  width: 0;
-  height: 3px;
+  
   transition: opacity .5s;
 }
 .menu__item:last-child {
@@ -89,7 +90,7 @@ body {
    line-height: 85px;
 }
 .main__title_highlight {
-  background: #ECF3FF;
+  background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 .main__subtitle {
   margin: 0 0 42px 0;
@@ -114,4 +115,194 @@ body {
 .footer {
  display: flex;
  justify-content: center;
+}
+@media (max-width:1366px) {
+.wrapper {
+ width: 68%;
+ }
+.menu {
+ padding-top: 8px;
+ }
+ .hamburger-menu {
+  display: none;
+ }
+.header {
+ padding-bottom: 80px;
+ }
+ .main {
+  padding: 0 58% 145px 0;
+  background-size: 56%;
+  margin-right: -14px;
+ }
+ .logo__circle {
+  top: 49%;
+ }
+ .logo__circle_color_dark-blue {
+  left: 0;
+ }
+ .logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  }
+ .menu__item {
+  margin-right: 16px;
+  font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
+ }
+ .menu__item:last-child {
+  margin-right: 2px;
+ }
+ .main__title {
+  margin-bottom: 15px;
+  font: 49.8px/63px "pt_serifbold", arial, helvetica, sans-serif;
+  padding-top: 25px;
+ }
+ .main__subtitle {
+  width: 90%;
+  padding-top: 28px;
+  margin-bottom: 40px;
+  padding-right: 57px;
+  font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
+ }
+ .main__button {
+  font: 500 13px/9px "Roboto", arial, helvetica, sans-serif;
+  padding: 20px 27px 20px 27px;
+ }
+}
+@media (max-width:1024px) {
+.wrapper {
+ width: 91%;
+ }
+ .hamburger-menu {
+  display: none;
+ }
+.header {
+ margin-bottom: 5px;
+ }
+ .main {
+ text-align: left;
+ padding: 2% 0 147px;
+ margin-right: -5px;
+ background-size: 55%;
+ }
+ .logo {
+  position: relative;
+  padding: 36px 0 40px 44px;
+ }
+ .menu {
+ padding-top: 6px;
+ }
+ .menu__item {
+  margin-right: 15px;
+  font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
+ }
+ .menu__item:last-child {
+  margin-right: 0px;
+ }
+ .main__title {
+  margin-bottom: 15px;
+  width: 45%;
+  font: 50px/64px "pt_serifbold", arial, helvetica, sans-serif;
+  padding-top: 0px;
+ }
+ .main__subtitle {
+  width: 42%;
+  padding-top: 28px;
+  margin-bottom: 40px;
+  padding-right: 57px;
+  font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
+ }
+ .main__button {
+  font: 500 13px/10px "Roboto", arial, helvetica, sans-serif;
+  padding: 19px 26px 17px 27px;
+ }
+}
+@media (max-width:768px) {
+  .menu{
+    display: none;
+  }
+  .main{
+    padding: 0;
+    padding-top: 290px;
+    background: center top 5px no-repeat url(img/mainImg.svg);
+    background-size: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .wrapper-main{
+    display: block;
+  }
+  label{
+    z-index: 99;
+    background: black;
+    width: 30px;
+    height: 5px;
+    position: relative;
+    display: block;
+
+  }
+  .main-menu{
+    display: none;
+  }
+  #check-menu{
+    display: none;
+  }
+  #check-menu:checked ~ label {
+    background: transparent;
+  }
+  #check-menu:checked ~ label::before {
+    transform: rotate(45deg);
+    bottom: 0;
+  }
+  #check-menu:checked ~ label::after {
+    transform: rotate(-45deg);
+    top: 0;
+
+  }
+  .menu__item{
+    text-decoration: none;
+    color: black;
+    margin: 30px 0;
+    font-size: 3em;
+    font-family: 'Roboto';
+  }
+  #check-menu:checked ~ .main-menu{
+    display: block;
+    position: fixed;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  label::after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 5px;
+    display: block;
+    background-color: #000;
+  }
+  label::before{
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 5px;
+    display: block;
+    background-color: #000;
+  }
+}
+@media (max-width:375px) {
+
+ .hamburger-menu {
+  display: none;
+ }
 }
