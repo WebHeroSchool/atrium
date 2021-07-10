@@ -269,7 +269,8 @@ top: 28px;
  left: 0;
  transform: translateY(100%);
  transition: .5s all;
- .a {
+ }
+  a {
   display: block;
   width:100%;
   padding: 10px;
