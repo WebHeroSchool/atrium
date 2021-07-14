@@ -57,6 +57,7 @@ body {
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
+
   transition: opacity .5s;
 }
 .menu__item:last-child {
@@ -109,127 +110,127 @@ body {
   transition: opacity .5s;
 }
 .main__button:hover {
-  opacity: .5;
+ opacity: .5;
 }
 .footer {
-  display: flex;
-  justify-content: center;
+ display: flex;
+ justify-content: center;
 }
 @media (max-width:1366px) {
- .wrapper {
-   width: 68%;
+.wrapper {
+ width: 68%;
  }
- .menu {
-   padding-top: 8px;
+.menu {
+ padding-top: 8px;
  }
  .hamburger-menu {
-   display: none;
+  display: none;
  }
- .header {
-   padding-bottom: 80px;
+.header {
+ padding-bottom: 80px;
  }
  .main {
-   padding: 0 58% 145px 0;
-   background-size: 56%;
-   margin-right: -14px;
+  padding: 0 58% 145px 0;
+  background-size: 56%;
+  margin-right: -14px;
  }
  .logo__circle {
-   top: 49%;
+  top: 49%;
  }
  .logo__circle_color_dark-blue {
-   left: 0;
+  left: 0;
  }
  .logo__circle_color_blue {
-   left: 8px;
-   top: 56%;
- }
+  left: 8px;
+  top: 56%;
+  }
  .menu__item {
-   margin-right: 16px;
-   font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
+  margin-right: 16px;
+  font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
  }
  .menu__item:last-child {
-   margin-right: 2px;
+  margin-right: 2px;
  }
  .main__title {
-   margin-bottom: 15px;
-   font: 49.8px/63px "pt_serifbold", arial, helvetica, sans-serif;
-   padding-top: 25px;
+  margin-bottom: 15px;
+  font: 49.8px/63px "pt_serifbold", arial, helvetica, sans-serif;
+  padding-top: 25px;
  }
  .main__subtitle {
-   width: 90%;
-   padding-top: 28px;
-   margin-bottom: 40px;
-   padding-right: 57px;
-   font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
+  width: 90%;
+  padding-top: 28px;
+  margin-bottom: 40px;
+  padding-right: 57px;
+  font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
  }
  .main__button {
-   font: 500 13px/9px "Roboto", arial, helvetica, sans-serif;
-   padding: 20px 27px 20px 27px;
+  font: 500 13px/9px "Roboto", arial, helvetica, sans-serif;
+  padding: 20px 27px 20px 27px;
  }
 }
 @media (max-width:1024px) {
 .wrapper {
-  width: 91%;
+ width: 91%;
  }
-.hamburger-menu {
+ .hamburger-menu {
   display: none;
  }
 .header {
-  margin-bottom: 5px;
+ margin-bottom: 5px;
  }
-.main {
-  text-align: left;
-  padding: 2% 0 147px;
-  margin-right: -5px;
-  background-size: 55%;
+ .main {
+ text-align: left;
+ padding: 2% 0 147px;
+ margin-right: -5px;
+ background-size: 55%;
  }
  .logo {
-   position: relative;
-   padding: 36px 0 40px 44px;
+  position: relative;
+  padding: 36px 0 40px 44px;
  }
  .menu {
-   padding-top: 6px;
+ padding-top: 6px;
  }
  .menu__item {
-   margin-right: 15px;
-   font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
+  margin-right: 15px;
+  font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
  }
  .menu__item:last-child {
-   margin-right: 0px;
+  margin-right: 0px;
  }
  .main__title {
-   margin-bottom: 15px;
-   width: 45%;
-   font: 50px/64px "pt_serifbold", arial, helvetica, sans-serif;
-   padding-top: 0px;
+  margin-bottom: 15px;
+  width: 45%;
+  font: 50px/64px "pt_serifbold", arial, helvetica, sans-serif;
+  padding-top: 0px;
  }
  .main__subtitle {
-   width: 42%;
-   padding-top: 28px;
-   margin-bottom: 40px;
-   padding-right: 57px;
-   font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
+  width: 42%;
+  padding-top: 28px;
+  margin-bottom: 40px;
+  padding-right: 57px;
+  font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
  }
  .main__button {
-   font: 500 13px/10px "Roboto", arial, helvetica, sans-serif;
-   padding: 19px 26px 17px 27px;
+  font: 500 13px/10px "Roboto", arial, helvetica, sans-serif;
+  padding: 19px 26px 17px 27px;
  }
 }
 @media (max-width:768px) {
-.menu{
-   display: none;
- }
- .main{
-   padding: 0;
-   padding-top: 290px;
-   background: center top 5px no-repeat url(img/mainImg.svg);
-   background-size: 50%;
-   display: flex;
-   /* justify-content: center; */
-   align-items: center;
-   flex-direction: column;
-   text-align: center;
- }
+  .menu{
+    display: none;
+  }
+  .main{
+    padding: 0;
+    padding-top: 290px;
+    background: center top 5px no-repeat url(img/mainImg.svg);
+    background-size: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
   .wrapper-main{
     display: block;
   }
