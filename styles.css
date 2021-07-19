@@ -403,5 +403,7 @@ body {
    padding-right: 2px;
    font: 500 16.5px/20px "Roboto", arial, helvetica, sans-serif;
  }
- .image-content__image { display: none}; 
+ .image-content__image {
+   display: none;
+ } 
 }
