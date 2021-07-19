@@ -306,8 +306,8 @@ body {
  }
  .main {
    padding: 0;
-   padding-top: 125px;
-   background: center top 0px no-repeat url(img/mainImg.svg);
+   padding-top: 218px;
+   background: center top 78px no-repeat url(img/mainImg.svg);
    background-size: 81%;
    display: flex;
    /* justify-content: center; */
@@ -405,5 +405,5 @@ body {
  }
  .image-content__image {
    display: none;
- } 
+ }
 }
