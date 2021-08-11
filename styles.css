@@ -328,4 +328,7 @@ top: 28px;
  .hamburger-menu {
   display: none;
  }
+ .image-content__image {
+   display: none;
+ }
 }
