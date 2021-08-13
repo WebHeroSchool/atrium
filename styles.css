@@ -390,7 +390,7 @@ body {
    width: 100%;
    height: 5px;
    display: block;
-   background-color: #000;
+   background-color: #0000FF;
  }
  label::before {
    content: '';
@@ -399,7 +399,7 @@ body {
    width: 100%;
    height: 5px;
    display: block;
-   background-color: #000;
+   background-color: #0000FF;
  }
  .main-section {
    margin: auto;
