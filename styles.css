@@ -84,14 +84,14 @@ body {
 }
 .main__title {
    margin: 0 0 38px 0;
-   padding-top: 80px;
-   font: 66px/84px 'pt_serifbold', arial, helvetica, sans-serif;
+   padding-top: 79px;
+   font: 67px/86px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 .main__title_highlight {
   background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 .main__subtitle {
-  margin: 0 0 42px 0;
+  margin: -1px 0 39px 0;
   padding-right: 130px;
   font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
   letter-spacing: 0.1px;
@@ -156,7 +156,7 @@ body {
  }
  .main__subtitle {
    width: 90%;
-   padding-top: 28px;
+   padding-top: 29px;
    margin-bottom: 40px;
    padding-right: 57px;
    font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
@@ -218,11 +218,18 @@ body {
   .menu {
     display: none;
   }
+  .header {
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+  }
+  .header.header {
+    padding: 15px 40px 0 40px;
+  }
   .main {
-    padding: 0;
-    padding-top: 306px;
+    padding: 8px;
+    padding-top: 398px;
     background: center top 5px no-repeat url(img/mainImg.svg);
-    background-size: 51%;
+    background-size: 62%;
     display: flex;
   /* justify-content: center; */
     align-items: center;
@@ -256,7 +263,7 @@ body {
     z-index: 99;
     background: blue;
     width: 30px;
-    height: 5px;
+    height: 4px;
     position: relative;
     display: block;
   }
@@ -302,18 +309,22 @@ body {
    position: absolute;
    top: 10px;
    width: 100%;
-   height: 5px;
+   height: 4px;
    display: block;
-   background-color: #000;
+   background-color: #0000FF;
   }
   label::before {
    content: '';
    position: absolute;
    bottom: 10px;
    width: 100%;
-   height: 5px;
+   height: 4px;
    display: block;
-   background-color: #000;
+   background-color: #0000FF;
+  }
+
+  .logo > span {
+    display: none;
   }
 }
 @media (max-width:411px) {
@@ -322,9 +333,9 @@ body {
   }
   .main {
     padding: 0;
-    padding-top: 260px;
+    padding-top: 175px;
     background: center top 5px no-repeat url(img/mainImg.svg);
-    background-size: 75%;
+    background-size: 80%;
     display: flex;
   /* justify-content: center; */
     align-items: center;
@@ -341,10 +352,9 @@ body {
     margin-bottom: 15px;
     width: 73%;
     font: 30px/50px "pt_serifbold", arial, helvetica, sans-serif;
-    padding-top: 0px;
   }
   .main__subtitle {
-    width: 72%;
+    width: 71%;
     padding-top: 28px;
     margin-bottom: 40px;
     font: 500 17.9px/20px "Roboto", arial, helvetica, sans-serif;
@@ -354,12 +364,12 @@ body {
     padding: 19px 26px 17px 27px;
   }
   label {
-    z-index: 99;
-    background: blue;
-    width: 30px;
-    height: 5px;
-    position: relative;
-    display: block;
+   z-index: 99;
+   background: blue;
+   width: 30px;
+   height: 5px;
+   position: relative;
+   display: block;
   }
   .main-menu {
     display: none;
@@ -372,27 +382,27 @@ body {
   }
   #check-menu:checked ~ label::before {
     transform: rotate(45deg);
-    bottom: 0;
+    bottom: 0px;
   }
   #check-menu:checked ~ label::after {
     transform: rotate(-45deg);
-    top: 0;
   }
   .menu__item {
     text-decoration: none;
-    color: blue;
-    margin: 30px 0;
-    font-size: 3em;
+    color: black;
+    margin: 23px 0;
+    font-size: 2em;
     font-family: 'Roboto';
   }
   #check-menu:checked ~ .main-menu {
     display: block;
     position: fixed;
     background: white;
-    width: 100vw;
+    width: 96vw;
     height: 100vh;
     left: 0;
     top: 0;
+    bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,7 +415,7 @@ body {
    width: 100%;
    height: 5px;
    display: block;
-   background-color: #000;
+   background-color: #0000FF;
   }
   label::before {
    content: '';
@@ -414,7 +424,27 @@ body {
    width: 100%;
    height: 5px;
    display: block;
-   background-color: #000;
+   background-color: #0000FF;
+  }
+  .main-section {
+    margin: auto;
+    width: 80%;
+  }
+  .main__title {
+    margin-bottom: 30px;
+    width: 75%;
+    font: 30px/39px "pt_serifbold", arial, helvetica, sans-serif;
+    padding-top: 121px;
+  }
+  .main__subtitle {
+    width: 73%;
+    padding-top: 0px;
+    margin-bottom: 21px;
+    padding-right: 2px;
+    font: 500 16.5px/20px "Roboto", arial, helvetica, sans-serif;
+  }
+  .image-content__image {
+    display: none;
   }
 }
 @media (max-width:377px) {
@@ -426,8 +456,8 @@ body {
  }
  .main {
    padding: 0;
-   padding-top: 218px;
-   background: center top 78px no-repeat url(img/mainImg.svg);
+   padding-top: 146px;
+   background: center top 3px no-repeat url(img/mainImg.svg);
    background-size: 81%;
    display: flex;
    /* justify-content: center; */
@@ -440,10 +470,11 @@ body {
  }
  label {
   z-index: 99;
-  background: blue;
   width: 30px;
   height: 5px;
-  position: relative;
+  position: absolute;
+  top: 37px;
+  right: 24px;
   display: block;
  }
  .main-menu {
@@ -458,18 +489,17 @@ body {
  #check-menu:checked ~ label::before {
    transform: rotate(45deg);
    bottom: 0px;
-   top: 30px;
-   left: 290px;
+   /* top: 40px;
+   left: 300px; */
  }
  #check-menu:checked ~ label::after {
    transform: rotate(-45deg);
-   top: 30px;
-   left: 290px;
+   /* top: 40px;
+   left: 300px; */
  }
  .menu__item {
    text-decoration: none;
-   color: blue;
-   margin: 23px 0;
+   margin: 20px ​0 23px 6px;
    font-size: 2em;
    font-family: 'Roboto';
  }
@@ -478,9 +508,9 @@ body {
    position: fixed;
    background: white;
    width: 96vw;
-   height: 100vh;
+   height: 102vh;
    left: 0;
-   top: 0;
+   top: -17px;
    bottom: 100px;
    display: flex;
    justify-content: center;
@@ -509,10 +539,8 @@ body {
    margin: auto;
    width: 80%;
  }
- .logo {
+ .logo > span {
    display: none;
-   position: relative;
-   padding: 25px 0 40px 44px;
  }
  .main__title {
    margin-bottom: 30px;
@@ -522,12 +550,16 @@ body {
  }
  .main__subtitle {
    width: 73%;
-   padding-top: 0px;
-   margin-bottom: 21px;
+   padding-top: 1px;
+   margin-bottom: 23px;
    padding-right: 2px;
    font: 500 16.5px/20px "Roboto", arial, helvetica, sans-serif;
  }
  .image-content__image {
    display: none;
+ }
+ .main__button {
+   font: 500 14px/14px "Roboto", arial, helvetica, sans-serif;
+   padding: 17px 22px 17px 21px;
  }
 }
